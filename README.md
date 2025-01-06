@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# Real Estate App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Build a full-stack Real Estate application with React Native, featuring **Google authentication**, dynamic property listings, and user profiles. Designed with modern tools like **Expo SDK 52**, **Appwrite**, **Tailwind CSS**, and **TypeScript** for a seamless and scalable experience.
 
-## Get started
+---
 
-1. Install dependencies
+## 📹 Demo Video  
+[Watch the Demo](https://drive.google.com/file/d/1_RNqelaygW22U4Jf8nO1L72yiK_4okal/view?usp=sharing)  
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## ⚙️ Tech Stack  
+- [Expo](https://expo.dev/)  
+- [React Native](https://reactnative.dev/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Nativewind](https://www.nativewind.dev/)  
+- [Appwrite](https://appwrite.io/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🔋 Features  
+👉 **Authentication with Google**: Secure and seamless user sign-ins using Google’s authentication service.  
+👉 **Home Page**: Displays the latest and recommended properties with powerful search and filter functionality.  
+👉 **Explore Page**: Allows users to browse all types of properties with a clean and intuitive interface.  
+👉 **Property Details Page**: Provides comprehensive information about individual properties, including images and key details.  
+👉 **Profile Page**: Customizable user settings and profile management.  
+👉 **Centralized Data Fetching**: Custom-built solution inspired by TanStack’s useQuery for efficient API calls.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Set Up Environment Variables  
 
-## Get a fresh project
+Create a new file named `.env.local` in the root of your project and add the following content:
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+```env
+EXPO_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=
+EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID=
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Replace the values with your actual Appwrite credentials. You can obtain these credentials by signing up & creating a new project on the [Appwrite](https://cloud.appwrite.io/console/apply-credit?code=jsmastery50) website.
 
-## Learn more
+## 📂 Assets  
 
-To learn more about developing your project with Expo, look at the following resources:
+- **Project Assets** Download from [here](https://drive.google.com/file/d/1HxuvAeJfiPfcZ1co5fU0ahKRw4sbA0gO/view).  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Appwrite Database Setup**: Follow the guide [here](https://jsmastery.notion.site/Database-Setup-16260f3cbaf3807f8fb6cbed8d1e84fd).  
 
-## Join the community
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
