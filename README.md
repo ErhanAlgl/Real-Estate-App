@@ -5,7 +5,9 @@ Build a full-stack Real Estate application with React Native, featuring **Google
 ---
 
 ## 📹 Demo Video  
-[Watch the Demo](https://drive.google.com/file/d/1_RNqelaygW22U4Jf8nO1L72yiK_4okal/view?usp=sharing)  
+<video src="https://github.com/user-attachments/assets/ab8ea36a-adb8-4dfe-a6e4-2a7289619eb6" controls width="640" height="360">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
